@@ -1,0 +1,594 @@
+
+<div class="hproduct auto ford" data-classification="primary" data-type="used" data-internetprice="MjM5OTUuMA==" data-msrp="MjY4NTAuMA==" data-exteriorcolor="Blue Jeans Metallic" data-bodystyle="Sport Utility" data-trim="XLT" data-year="2016" data-model="Explorer" data-vin="1FM5K7D82GGA58455" data-make="Ford" data-index-position="1">
+<div>
+<div class="media">
+<a href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-a6ae554e0a0e0a176f5d7009d6409e4b.htm">
+<img src="//pictures.dealer.com/ddc/resize/640x/quality/70/sharpen/1/ddc/d/dannyzeckflm/1905/39c9c9eacc424b901540d9ae1313b19cx.jpg" width="640" alt="2016 Ford Explorer XLT Sport Utility" title="2016 Ford Explorer XLT Sport Utility near Kansas City" class="photo thumb">
+</a>
+<a class="dialog video ddc-btn ddc-btn-link ddc-btn-small" href="#" title="2016 Ford Explorer XLT Sport Utility near Kansas City" data-title=" 2016 Ford Explorer XLT FWD" data-href="/carflix-popup.htm?hideVcard=false&amp;videoUrl=//videos2.dealer.com/clients/d/dannyzeckflm/carflix2/a6ae554e0a0e0a176f5d7009d6409e4b/17f92da00a0d0c540f1bc63a42ac66a1.xml&amp;videoHeight=400&amp;videoWidth=680&amp;autoPlay=true&amp;itemId=a6ae554e0a0e0a176f5d7009d6409e4b&amp;category=AUTO" data-min-width="730" data-min-height="500" data-draggable="true" data-modal="false" data-destroy-on-close="true">
+<i class="ddc-icon ddc-icon-video"></i>
+Watch Video
+</a>
+<div class="mycars-vlp large-cta">
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-save-btn large-cta  " href="#" data-id="a6ae554e0a0e0a176f5d7009d6409e4b" data-mycars-save="">
+Save This Car!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-saved-btn mycars-action-set large-cta   hide " href="#" data-id="a6ae554e0a0e0a176f5d7009d6409e4b" label-remove="Remove Car" label-set="Saved!" data-mycars-remove="">
+Saved!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-add-alert-btn large-cta " href="#" data-id="a6ae554e0a0e0a176f5d7009d6409e4b">
+Get Price Alerts
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-alerts-isset mycars-action-set large-cta  hide " href="#" data-id="a6ae554e0a0e0a176f5d7009d6409e4b" label-remove="Remove Alerts" label-set="Alert Set!">
+Alert Set!
+</a>
+</div>
+</div>
+<h3 class="fn  "><a class="url" href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-a6ae554e0a0e0a176f5d7009d6409e4b.htm"> 2016 Ford Explorer XLT FWD</a></h3>
+<div class="pricing-area has-buttons">
+<ul class="pricing  multiple-prices has-eprice ddc-list-unstyled">
+<li><span class="msrp"><span class="label">Market Value<span class="separator">:</span></span><span class="value">$26,850</span></span></li>
+<li><span class="abSub"><span class="label">Zeck Savings<span class="separator">:</span></span><span class="value">$2,855</span></span></li>
+<li><span class="internetPrice final-price"><span class="label">Your Value Price<span class="separator">:</span></span><span class="value">$23,995</span></span></li>
+<li><a data-href="/eprice-form.htm?itemId=a6ae554e0a0e0a176f5d7009d6409e4b&amp;vehicleId=a6ae554e0a0e0a176f5d7009d6409e4b&amp;category=AUTO&amp;parentPageAlias=INVENTORY_LISTING_DEFAULT_AUTO_USED" class="eprice dialog pointer ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ddc-btn ddc-btn-primary" data-eprice="true"><span class="ui-button-text">BUY IT NOW</span></a></li>
+<li class="kbbCustom">
+<a title="Click here to view the Kelley Blue Book Price Advisor Report for this vehicle" target="_blank" href="http://www.kbbreport.com/1FM5K7D82GGA58455">
+<img width="110" height="33" alt="Kelley Blue Book Price Advisor Report Logo" src="//www.kbbreport.com/images/banners/kbb_report_110x33.png" style="border: 0px;">
+</a>
+</li>
+</ul>
+</div>
+<div class="description">
+<dl> <dt>Engine:</dt> <dd>3.5L V-6 cyl<span class="separator">,</span></dd> <dt>Transmission:</dt> <dd>6-Speed Automatic with Select-Shift<span class="separator">,</span></dd> <dt>Exterior Color:</dt> <dd>Blue Jeans Metallic<span class="separator">,</span></dd> <dt>Interior Color:</dt> <dd>Ebony Black<span class="separator">,</span></dd></dl><dl class="last"> <dt>Stock #:</dt> <dd>FD19169<span class="separator">,</span></dd> <dt>Model Code:</dt> <dd>K7D<span class="separator">,</span></dd> <dt>Drive Line:</dt> <dd>FWD<span class="separator">,</span></dd> <dt>Mileage:</dt> <dd>36596</dd></dl> <span class="ddc-more">More<span class="hellip">&#x2026;</span></span> <div class="packages packages-single clear"><span class="packageTitle">Radio: AM/FM Stereo w/Single CD/MP3 Capable  </span>  <span class="packageParens">(</span><span class="packageItems"><span class="packageItem">SYNC</span></span><span class="packageParens">)</span></div>
+<div class="calloutDetails">
+<ul class="ddc-list-unstyled">
+<li class="autocheck"><a href="/iframe.htm?src=http%3A%2F%2Fautocheck.dealer.com%2Fcgi-bin%2Fautocheck.cgi%3Fdealerid%3Ddannyzeckflm%26amp%3Bvin%3D1FM5K7D82GGA58455&amp;width=990&amp;height=450&amp;scrolling=true" class="badge dialog pointer" target="_blank" data-width="980" data-height="450"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-autocheck.png?r=1405027620000" alt="AutoCheck"></a></li><li class="carfax"><a href="http://www.carfax.com/cfm/ccc_displayhistoryrpt.cfm?partner=DLR_3&amp;vin=1FM5K7D82GGA58455" class="badge carfax-one-owner pointer" target="_blank"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-carfax-one-owner-lrg.png?r=1405027620000" alt="Carfax One Owner"></a></li>
+<li class="autovisor">
+<a title="Click here to view the AutoVisor report on this vehicle" target="_blank" href="http://www.myautovisor.com/1FM5K7D82GGA58455" style="border: 0;">
+<img alt="MyAutoVisor.com Logo" src="http://www.myautovisor.com/images/banners/110x33.png">
+</a>
+</li>
+</ul>
+</div>
+<div class="hproductDynamicArea"></div>
+</div>
+</div>
+</div>
+<div class="item-compare">
+<div class="ddc-form-group">
+<label class="checkbox ddc-checkbox id">
+<input type="checkbox" name="id" class="checkbox" value="a6ae554e0a0e0a176f5d7009d6409e4b" data-id="">
+<span>Compare</span>
+</label>
+</div><!-- end .ddc-form-group -->
+<a href="" class="compare-submit-link disabled ">
+Compare Selected</a>
+</div>
+,
+<div class="hproduct auto ford" data-classification="primary" data-type="used" data-internetprice="MjM5OTcuMA==" data-msrp="MjczNzUuMA==" data-exteriorcolor="Caribou Metallic" data-bodystyle="Sport Utility" data-trim="XLT" data-year="2016" data-model="Explorer" data-vin="1FM5K7DH3GGA04906" data-make="Ford" data-index-position="2">
+<div>
+<div class="media">
+<a href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-433a3ab20a0e0a6b38ca1f5486bc0ac9.htm">
+<img src="//pictures.dealer.com/ddc/resize/640x/quality/70/sharpen/1/ddc/d/dannyzeckflm/0977/18edbe6d3c0a6f099ce14ebb55e95163x.jpg" alt="2016 Ford Explorer XLT Sport Utility" title="2016 Ford Explorer XLT Sport Utility near Kansas City" class="photo thumb">
+</a>
+<a class="dialog video ddc-btn ddc-btn-link ddc-btn-small" href="#" title="2016 Ford Explorer XLT Sport Utility near Kansas City" data-title=" 2016 Ford Explorer XLT FWD" data-href="/carflix-popup.htm?hideVcard=false&amp;videoUrl=//videos2.dealer.com/clients/d/dannyzeckflm/carflix2/433a3ab20a0e0a6b38ca1f5486bc0ac9/8dcca85a0a0d0c541c4f2a103c0e5b1c.xml&amp;videoHeight=400&amp;videoWidth=680&amp;autoPlay=true&amp;itemId=433a3ab20a0e0a6b38ca1f5486bc0ac9&amp;category=AUTO" data-min-width="730" data-min-height="500" data-draggable="true" data-modal="false" data-destroy-on-close="true">
+<i class="ddc-icon ddc-icon-video"></i>
+Watch Video
+</a>
+<div class="mycars-vlp large-cta">
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-save-btn large-cta  " href="#" data-id="433a3ab20a0e0a6b38ca1f5486bc0ac9" data-mycars-save="">
+Save This Car!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-saved-btn mycars-action-set large-cta   hide " href="#" data-id="433a3ab20a0e0a6b38ca1f5486bc0ac9" label-remove="Remove Car" label-set="Saved!" data-mycars-remove="">
+Saved!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-add-alert-btn large-cta " href="#" data-id="433a3ab20a0e0a6b38ca1f5486bc0ac9">
+Get Price Alerts
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-alerts-isset mycars-action-set large-cta  hide " href="#" data-id="433a3ab20a0e0a6b38ca1f5486bc0ac9" label-remove="Remove Alerts" label-set="Alert Set!">
+Alert Set!
+</a>
+</div>
+</div>
+<h3 class="fn  "><a class="url" href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-433a3ab20a0e0a6b38ca1f5486bc0ac9.htm"> 2016 Ford Explorer XLT FWD</a></h3>
+<div class="pricing-area has-buttons">
+<ul class="pricing  multiple-prices has-eprice ddc-list-unstyled">
+<li><span class="msrp"><span class="label">Market Value<span class="separator">:</span></span><span class="value">$27,375</span></span></li>
+<li><span class="abSub"><span class="label">Zeck Savings<span class="separator">:</span></span><span class="value">$3,378</span></span></li>
+<li><span class="internetPrice final-price"><span class="label">Your Value Price<span class="separator">:</span></span><span class="value">$23,997</span></span></li>
+<li><a data-href="/eprice-form.htm?itemId=433a3ab20a0e0a6b38ca1f5486bc0ac9&amp;vehicleId=433a3ab20a0e0a6b38ca1f5486bc0ac9&amp;category=AUTO&amp;parentPageAlias=INVENTORY_LISTING_DEFAULT_AUTO_USED" class="eprice dialog pointer ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary" data-eprice="true"><span class="ui-button-text">BUY IT NOW</span></a></li>
+<li class="kbbCustom">
+<a title="Click here to view the Kelley Blue Book Price Advisor Report for this vehicle" target="_blank" href="http://www.kbbreport.com/1FM5K7DH3GGA04906">
+<img width="110" height="33" alt="Kelley Blue Book Price Advisor Report Logo" src="//www.kbbreport.com/images/banners/kbb_report_110x33.png" style="border: 0px;">
+</a>
+</li>
+</ul>
+</div>
+<div class="description">
+<dl> <dt>Engine:</dt> <dd>2.3L I-4 cyl<span class="separator">,</span></dd> <dt>Transmission:</dt> <dd>6-Speed Automatic with Select-Shift<span class="separator">,</span></dd> <dt>Exterior Color:</dt> <dd>Caribou Metallic<span class="separator">,</span></dd> <dt>Interior Color:</dt> <dd>Ebony Black<span class="separator">,</span></dd></dl><dl class="last"> <dt>Stock #:</dt> <dd>FD19569<span class="separator">,</span></dd> <dt>Model Code:</dt> <dd>K7D<span class="separator">,</span></dd> <dt>Drive Line:</dt> <dd>FWD<span class="separator">,</span></dd> <dt>Mileage:</dt> <dd>30366</dd></dl> <span class="ddc-more">More<span class="hellip">&#x2026;</span></span> <div class="packages packages-single clear"><span class="packageTitle">Radio: AM/FM Stereo w/Single CD/MP3 Capable  </span>  <span class="packageParens">(</span><span class="packageItems"><span class="packageItem">SYNC</span></span><span class="packageParens">)</span></div>
+<div class="calloutDetails">
+<ul class="ddc-list-unstyled">
+<li class="autocheck"><a href="/iframe.htm?src=http%3A%2F%2Fautocheck.dealer.com%2Fcgi-bin%2Fautocheck.cgi%3Fdealerid%3Ddannyzeckflm%26amp%3Bvin%3D1FM5K7DH3GGA04906&amp;width=990&amp;height=450&amp;scrolling=true" class="badge dialog pointer" target="_blank" data-width="980" data-height="450"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-autocheck.png?r=1405027620000" alt="AutoCheck"></a></li><li class="carfax"><a href="http://www.carfax.com/cfm/ccc_displayhistoryrpt.cfm?partner=DLR_3&amp;vin=1FM5K7DH3GGA04906" class="badge carfax-one-owner pointer" target="_blank"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-carfax-one-owner-lrg.png?r=1405027620000" alt="Carfax One Owner"></a></li>
+<li class="autovisor">
+<a title="Click here to view the AutoVisor report on this vehicle" target="_blank" href="http://www.myautovisor.com/1FM5K7DH3GGA04906" style="border: 0;">
+<img alt="MyAutoVisor.com Logo" src="http://www.myautovisor.com/images/banners/110x33.png">
+</a>
+</li>
+</ul>
+</div>
+<div class="hproductDynamicArea"></div>
+</div>
+</div>
+</div>
+<div class="item-compare">
+<div class="ddc-form-group">
+<label class="checkbox ddc-checkbox id">
+<input type="checkbox" name="id" class="checkbox" value="433a3ab20a0e0a6b38ca1f5486bc0ac9" data-id="">
+<span>Compare</span>
+</label>
+</div><!-- end .ddc-form-group -->
+<a href="" class="compare-submit-link disabled ">
+Compare Selected</a>
+</div>
+,
+<div class="hproduct auto ford" data-classification="primary" data-type="used" data-internetprice="MjQ5ODIuMA==" data-msrp="Mjc3MjUuMA==" data-exteriorcolor="Blue Jeans Metallic" data-bodystyle="Sport Utility" data-trim="XLT" data-year="2016" data-model="Explorer" data-vin="1FM5K7DHXGGA01775" data-make="Ford" data-index-position="3">
+<div>
+<div class="media">
+<a href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-a534c6980a0e0a1739fb5aa358c78416.htm">
+<img src="//pictures.dealer.com/ddc/resize/640x/quality/70/sharpen/1/ddc/d/dannyzeckflm/0488/4c7562303d1d950f7b8b5aee84ebb4f7x.jpg" alt="2016 Ford Explorer XLT Sport Utility" title="2016 Ford Explorer XLT Sport Utility near Kansas City" class="photo thumb">
+</a>
+<a class="dialog video ddc-btn ddc-btn-link ddc-btn-small" href="#" title="2016 Ford Explorer XLT Sport Utility near Kansas City" data-title=" 2016 Ford Explorer XLT FWD" data-href="/carflix-popup.htm?hideVcard=false&amp;videoUrl=//videos2.dealer.com/clients/d/dannyzeckflm/carflix2/a534c6980a0e0a1739fb5aa358c78416/f93b1ba60a0d0c545189829f424a76f8.xml&amp;videoHeight=400&amp;videoWidth=680&amp;autoPlay=true&amp;itemId=a534c6980a0e0a1739fb5aa358c78416&amp;category=AUTO" data-min-width="730" data-min-height="500" data-draggable="true" data-modal="false" data-destroy-on-close="true">
+<i class="ddc-icon ddc-icon-video"></i>
+Watch Video
+</a>
+<div class="mycars-vlp large-cta">
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-save-btn large-cta  " href="#" data-id="a534c6980a0e0a1739fb5aa358c78416" data-mycars-save="">
+Save This Car!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-saved-btn mycars-action-set large-cta   hide " href="#" data-id="a534c6980a0e0a1739fb5aa358c78416" label-remove="Remove Car" label-set="Saved!" data-mycars-remove="">
+Saved!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-add-alert-btn large-cta " href="#" data-id="a534c6980a0e0a1739fb5aa358c78416">
+Get Price Alerts
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-alerts-isset mycars-action-set large-cta  hide " href="#" data-id="a534c6980a0e0a1739fb5aa358c78416" label-remove="Remove Alerts" label-set="Alert Set!">
+Alert Set!
+</a>
+</div>
+</div>
+<h3 class="fn  "><a class="url" href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-a534c6980a0e0a1739fb5aa358c78416.htm"> 2016 Ford Explorer XLT FWD</a></h3>
+<div class="pricing-area has-buttons">
+<ul class="pricing  multiple-prices has-eprice ddc-list-unstyled">
+<li><span class="msrp"><span class="label">Market Value<span class="separator">:</span></span><span class="value">$27,725</span></span></li>
+<li><span class="abSub"><span class="label">Zeck Savings<span class="separator">:</span></span><span class="value">$2,743</span></span></li>
+<li><span class="internetPrice final-price"><span class="label">Your Value Price<span class="separator">:</span></span><span class="value">$24,982</span></span></li>
+<li><a data-href="/eprice-form.htm?itemId=a534c6980a0e0a1739fb5aa358c78416&amp;vehicleId=a534c6980a0e0a1739fb5aa358c78416&amp;category=AUTO&amp;parentPageAlias=INVENTORY_LISTING_DEFAULT_AUTO_USED" class="eprice dialog pointer ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary" data-eprice="true"><span class="ui-button-text">BUY IT NOW</span></a></li>
+<li class="kbbCustom">
+<a title="Click here to view the Kelley Blue Book Price Advisor Report for this vehicle" target="_blank" href="http://www.kbbreport.com/1FM5K7DHXGGA01775">
+<img width="110" height="33" alt="Kelley Blue Book Price Advisor Report Logo" src="//www.kbbreport.com/images/banners/kbb_report_110x33.png" style="border: 0px;">
+</a>
+</li>
+</ul>
+</div>
+<div class="description">
+<dl> <dt>Engine:</dt> <dd>2.3L I-4 cyl<span class="separator">,</span></dd> <dt>Transmission:</dt> <dd>6-Speed Automatic with Select-Shift<span class="separator">,</span></dd> <dt>Exterior Color:</dt> <dd>Blue Jeans Metallic<span class="separator">,</span></dd> <dt>Interior Color:</dt> <dd>Medium Light Camel<span class="separator">,</span></dd></dl><dl class="last"> <dt>Stock #:</dt> <dd>FD19697<span class="separator">,</span></dd> <dt>Model Code:</dt> <dd>K7D<span class="separator">,</span></dd> <dt>Drive Line:</dt> <dd>FWD<span class="separator">,</span></dd> <dt>Mileage:</dt> <dd>28678</dd></dl> <span class="ddc-more">More<span class="hellip">&#x2026;</span></span> <div class="packages packages-single clear"><span class="packageTitle">Radio: AM/FM Stereo w/Single CD/MP3 Capable  </span>  <span class="packageParens">(</span><span class="packageItems"><span class="packageItem">SYNC</span></span><span class="packageParens">)</span></div>
+<div class="calloutDetails">
+<ul class="ddc-list-unstyled">
+<li class="autocheck"><a href="/iframe.htm?src=http%3A%2F%2Fautocheck.dealer.com%2Fcgi-bin%2Fautocheck.cgi%3Fdealerid%3Ddannyzeckflm%26amp%3Bvin%3D1FM5K7DHXGGA01775&amp;width=990&amp;height=450&amp;scrolling=true" class="badge dialog pointer" target="_blank" data-width="980" data-height="450"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-autocheck.png?r=1405027620000" alt="AutoCheck"></a></li><li class="carfax"><a href="http://www.carfax.com/cfm/ccc_displayhistoryrpt.cfm?partner=DLR_3&amp;vin=1FM5K7DHXGGA01775" class="badge carfax-one-owner pointer" target="_blank"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-carfax-one-owner-lrg.png?r=1405027620000" alt="Carfax One Owner"></a></li>
+<li class="autovisor">
+<a title="Click here to view the AutoVisor report on this vehicle" target="_blank" href="http://www.myautovisor.com/1FM5K7DHXGGA01775" style="border: 0;">
+<img alt="MyAutoVisor.com Logo" src="http://www.myautovisor.com/images/banners/110x33.png">
+</a>
+</li>
+</ul>
+</div>
+<div class="hproductDynamicArea"></div>
+</div>
+</div>
+</div>
+<div class="item-compare">
+<div class="ddc-form-group">
+<label class="checkbox ddc-checkbox id">
+<input type="checkbox" name="id" class="checkbox" value="a534c6980a0e0a1739fb5aa358c78416" data-id="">
+<span>Compare</span>
+</label>
+</div><!-- end .ddc-form-group -->
+<a href="" class="compare-submit-link disabled ">
+Compare Selected</a>
+</div>
+,
+<div class="hproduct auto ford" data-classification="primary" data-type="used" data-internetprice="MjQ5ODMuMA==" data-msrp="Mjk1NzUuMA==" data-exteriorcolor="Bronze Fire Metallic Tinted Clearcoat" data-bodystyle="Sport Utility" data-trim="XLT" data-year="2016" data-model="Explorer" data-vin="1FM5K7D82GGD10897" data-make="Ford" data-index-position="4">
+<div>
+<div class="media">
+<a href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-003d44970a0e0ae71703826b38e979ca.htm">
+<img src="//pictures.dealer.com/ddc/resize/640x/quality/70/sharpen/1/ddc/d/dannyzeckflm/1306/950f984f56be939bbba7d4048a33a945x.jpg" alt="2016 Ford Explorer XLT Sport Utility" title="2016 Ford Explorer XLT Sport Utility near Kansas City" class="photo thumb">
+</a>
+<a class="dialog video ddc-btn ddc-btn-link ddc-btn-small" href="#" title="2016 Ford Explorer XLT Sport Utility near Kansas City" data-title=" 2016 Ford Explorer XLT FWD" data-href="/carflix-popup.htm?hideVcard=false&amp;videoUrl=//videos2.dealer.com/clients/d/dannyzeckflm/carflix2/003d44970a0e0ae71703826b38e979ca/27f121e20a0d0c537a176a7507071a80.xml&amp;videoHeight=400&amp;videoWidth=680&amp;autoPlay=true&amp;itemId=003d44970a0e0ae71703826b38e979ca&amp;category=AUTO" data-min-width="730" data-min-height="500" data-draggable="true" data-modal="false" data-destroy-on-close="true">
+<i class="ddc-icon ddc-icon-video"></i>
+Watch Video
+</a>
+<div class="mycars-vlp large-cta">
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-save-btn large-cta  " href="#" data-id="003d44970a0e0ae71703826b38e979ca" data-mycars-save="">
+Save This Car!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-saved-btn mycars-action-set large-cta   hide " href="#" data-id="003d44970a0e0ae71703826b38e979ca" label-remove="Remove Car" label-set="Saved!" data-mycars-remove="">
+Saved!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-add-alert-btn large-cta " href="#" data-id="003d44970a0e0ae71703826b38e979ca">
+Get Price Alerts
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-alerts-isset mycars-action-set large-cta  hide " href="#" data-id="003d44970a0e0ae71703826b38e979ca" label-remove="Remove Alerts" label-set="Alert Set!">
+Alert Set!
+</a>
+</div>
+</div>
+<h3 class="fn  "><a class="url" href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-003d44970a0e0ae71703826b38e979ca.htm"> 2016 Ford Explorer XLT FWD</a></h3>
+<div class="pricing-area has-buttons">
+<ul class="pricing  multiple-prices has-eprice ddc-list-unstyled">
+<li><span class="msrp"><span class="label">Market Value<span class="separator">:</span></span><span class="value">$29,575</span></span></li>
+<li><span class="abSub"><span class="label">Zeck Savings<span class="separator">:</span></span><span class="value">$4,592</span></span></li>
+<li><span class="internetPrice final-price"><span class="label">Your Value Price<span class="separator">:</span></span><span class="value">$24,983</span></span></li>
+<li><a data-href="/eprice-form.htm?itemId=003d44970a0e0ae71703826b38e979ca&amp;vehicleId=003d44970a0e0ae71703826b38e979ca&amp;category=AUTO&amp;parentPageAlias=INVENTORY_LISTING_DEFAULT_AUTO_USED" class="eprice dialog pointer ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary" data-eprice="true"><span class="ui-button-text">BUY IT NOW</span></a></li>
+<li class="kbbCustom">
+<a title="Click here to view the Kelley Blue Book Price Advisor Report for this vehicle" target="_blank" href="http://www.kbbreport.com/1FM5K7D82GGD10897">
+<img width="110" height="33" alt="Kelley Blue Book Price Advisor Report Logo" src="//www.kbbreport.com/images/banners/kbb_report_110x33.png" style="border: 0px;">
+</a>
+</li>
+</ul>
+</div>
+<div class="description">
+<dl> <dt>Engine:</dt> <dd>3.5L V-6 cyl<span class="separator">,</span></dd> <dt>Transmission:</dt> <dd>6-Speed Automatic with Select-Shift<span class="separator">,</span></dd> <dt>Exterior Color:</dt> <dd>Bronze Fire Metallic Tinted Clearcoat<span class="separator">,</span></dd> <dt>Interior Color:</dt> <dd>Medium Light Camel<span class="separator">,</span></dd></dl><dl class="last"> <dt>Stock #:</dt> <dd>FB19411<span class="separator">,</span></dd> <dt>Model Code:</dt> <dd>K7D<span class="separator">,</span></dd> <dt>Drive Line:</dt> <dd>FWD<span class="separator">,</span></dd> <dt>Mileage:</dt> <dd>5998</dd></dl> <span class="ddc-more">More<span class="hellip">&#x2026;</span></span> 
+<div class="calloutDetails">
+<ul class="ddc-list-unstyled">
+<li class="autocheck"><a href="/iframe.htm?src=http%3A%2F%2Fautocheck.dealer.com%2Fcgi-bin%2Fautocheck.cgi%3Fdealerid%3Ddannyzeckflm%26amp%3Bvin%3D1FM5K7D82GGD10897&amp;width=990&amp;height=450&amp;scrolling=true" class="badge dialog pointer" target="_blank" data-width="980" data-height="450"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-autocheck.png?r=1405027620000" alt="AutoCheck"></a></li><li class="carfax"><a href="http://www.carfax.com/cfm/ccc_displayhistoryrpt.cfm?partner=DLR_3&amp;vin=1FM5K7D82GGD10897" class="badge carfax-one-owner pointer" target="_blank"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-carfax-one-owner-lrg.png?r=1405027620000" alt="Carfax One Owner"></a></li>
+<li class="autovisor">
+<a title="Click here to view the AutoVisor report on this vehicle" target="_blank" href="http://www.myautovisor.com/1FM5K7D82GGD10897" style="border: 0;">
+<img alt="MyAutoVisor.com Logo" src="http://www.myautovisor.com/images/banners/110x33.png">
+</a>
+</li>
+</ul>
+</div>
+<div class="hproductDynamicArea"></div>
+</div>
+</div>
+</div>
+<div class="item-compare">
+<div class="ddc-form-group">
+<label class="checkbox ddc-checkbox id">
+<input type="checkbox" name="id" class="checkbox" value="003d44970a0e0ae71703826b38e979ca" data-id="">
+<span>Compare</span>
+</label>
+</div><!-- end .ddc-form-group -->
+<a href="" class="compare-submit-link disabled ">
+Compare Selected</a>
+</div>
+,
+<div class="hproduct auto ford" data-classification="primary" data-type="used" data-internetprice="MjU1OTUuMA==" data-msrp="MjgxMjUuMA==" data-exteriorcolor="Blue Jeans Metallic" data-bodystyle="Sport Utility" data-trim="XLT" data-year="2016" data-model="Explorer" data-vin="1FM5K7D87GGA36676" data-make="Ford" data-index-position="5">
+<div>
+<div class="media">
+<a href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-f326eb200a0e0a6b59f47ceb987ff51c.htm">
+<img class="lazy-image photo thumb" src="//static.dealer.com/images/blank.gif?r=1319813457000" data-src="//pictures.dealer.com/ddc/resize/640x/quality/70/sharpen/1/ddc/d/dannyzeckflm/1196/dea6fdef88fc486b2428225ece949a58x.jpg" alt="2016 Ford Explorer XLT Sport Utility" title="2016 Ford Explorer XLT Sport Utility near Kansas City">
+</a>
+<a class="dialog video ddc-btn ddc-btn-link ddc-btn-small" href="#" title="2016 Ford Explorer XLT Sport Utility near Kansas City" data-title=" 2016 Ford Explorer XLT FWD" data-href="/carflix-popup.htm?hideVcard=false&amp;videoUrl=//videos2.dealer.com/clients/d/dannyzeckflm/carflix2/f326eb200a0e0a6b59f47ceb987ff51c/c65bec520a0d0c5354ef813dd58da0af.xml&amp;videoHeight=400&amp;videoWidth=680&amp;autoPlay=true&amp;itemId=f326eb200a0e0a6b59f47ceb987ff51c&amp;category=AUTO" data-min-width="730" data-min-height="500" data-draggable="true" data-modal="false" data-destroy-on-close="true">
+<i class="ddc-icon ddc-icon-video"></i>
+Watch Video
+</a>
+<div class="mycars-vlp large-cta">
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-save-btn large-cta  " href="#" data-id="f326eb200a0e0a6b59f47ceb987ff51c" data-mycars-save="">
+Save This Car!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-saved-btn mycars-action-set large-cta   hide " href="#" data-id="f326eb200a0e0a6b59f47ceb987ff51c" label-remove="Remove Car" label-set="Saved!" data-mycars-remove="">
+Saved!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-add-alert-btn large-cta " href="#" data-id="f326eb200a0e0a6b59f47ceb987ff51c">
+Get Price Alerts
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-alerts-isset mycars-action-set large-cta  hide " href="#" data-id="f326eb200a0e0a6b59f47ceb987ff51c" label-remove="Remove Alerts" label-set="Alert Set!">
+Alert Set!
+</a>
+</div>
+</div>
+<h3 class="fn  "><a class="url" href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-f326eb200a0e0a6b59f47ceb987ff51c.htm"> 2016 Ford Explorer XLT FWD</a></h3>
+<div class="pricing-area has-buttons">
+<ul class="pricing  multiple-prices has-eprice ddc-list-unstyled">
+<li><span class="msrp"><span class="label">Market Value<span class="separator">:</span></span><span class="value">$28,125</span></span></li>
+<li><span class="abSub"><span class="label">Zeck Savings<span class="separator">:</span></span><span class="value">$2,530</span></span></li>
+<li><span class="internetPrice final-price"><span class="label">Your Value Price<span class="separator">:</span></span><span class="value">$25,595</span></span></li>
+<li><a data-href="/eprice-form.htm?itemId=f326eb200a0e0a6b59f47ceb987ff51c&amp;vehicleId=f326eb200a0e0a6b59f47ceb987ff51c&amp;category=AUTO&amp;parentPageAlias=INVENTORY_LISTING_DEFAULT_AUTO_USED" class="eprice dialog pointer ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary" data-eprice="true"><span class="ui-button-text">BUY IT NOW</span></a></li>
+<li class="kbbCustom">
+<a title="Click here to view the Kelley Blue Book Price Advisor Report for this vehicle" target="_blank" href="http://www.kbbreport.com/1FM5K7D87GGA36676">
+<img width="110" height="33" alt="Kelley Blue Book Price Advisor Report Logo" src="//www.kbbreport.com/images/banners/kbb_report_110x33.png" style="border: 0px;">
+</a>
+</li>
+</ul>
+</div>
+<div class="description">
+<dl> <dt>Engine:</dt> <dd>3.5L V-6 cyl<span class="separator">,</span></dd> <dt>Transmission:</dt> <dd>6-Speed Automatic with Select-Shift<span class="separator">,</span></dd> <dt>Exterior Color:</dt> <dd>Blue Jeans Metallic<span class="separator">,</span></dd> <dt>Interior Color:</dt> <dd>Medium Light Camel<span class="separator">,</span></dd></dl><dl class="last"> <dt>Stock #:</dt> <dd>FDA19334<span class="separator">,</span></dd> <dt>Model Code:</dt> <dd>K7D<span class="separator">,</span></dd> <dt>Drive Line:</dt> <dd>FWD<span class="separator">,</span></dd> <dt>Mileage:</dt> <dd>28709</dd></dl> <span class="ddc-more">More<span class="hellip">&#x2026;</span></span> <div class="packages packages-single clear"><span class="packageTitle">Radio: AM/FM Stereo w/Single CD/MP3 Capable  </span>  <span class="packageParens">(</span><span class="packageItems"><span class="packageItem">SYNC</span></span><span class="packageParens">)</span></div>
+<div class="calloutDetails">
+<ul class="ddc-list-unstyled">
+<li class="autocheck"><a href="/iframe.htm?src=http%3A%2F%2Fautocheck.dealer.com%2Fcgi-bin%2Fautocheck.cgi%3Fdealerid%3Ddannyzeckflm%26amp%3Bvin%3D1FM5K7D87GGA36676&amp;width=990&amp;height=450&amp;scrolling=true" class="badge dialog pointer" target="_blank" data-width="980" data-height="450"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-autocheck.png?r=1405027620000" alt="AutoCheck"></a></li><li class="carfax"><a href="http://www.carfax.com/cfm/ccc_displayhistoryrpt.cfm?partner=DLR_3&amp;vin=1FM5K7D87GGA36676" class="badge carfax-one-owner pointer" target="_blank"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-carfax-one-owner-lrg.png?r=1405027620000" alt="Carfax One Owner"></a></li>
+<li class="autovisor">
+<a title="Click here to view the AutoVisor report on this vehicle" target="_blank" href="http://www.myautovisor.com/1FM5K7D87GGA36676" style="border: 0;">
+<img alt="MyAutoVisor.com Logo" src="http://www.myautovisor.com/images/banners/110x33.png">
+</a>
+</li>
+</ul>
+</div>
+<div class="hproductDynamicArea"></div>
+</div>
+</div>
+</div>
+<div class="item-compare">
+<div class="ddc-form-group">
+<label class="checkbox ddc-checkbox id">
+<input type="checkbox" name="id" class="checkbox" value="f326eb200a0e0a6b59f47ceb987ff51c" data-id="">
+<span>Compare</span>
+</label>
+</div><!-- end .ddc-form-group -->
+<a href="" class="compare-submit-link disabled ">
+Compare Selected</a>
+</div>
+,
+<div class="hproduct auto ford" data-classification="primary" data-type="used" data-internetprice="MjU5OTkuMA==" data-msrp="MzAxMjUuMA==" data-exteriorcolor="Magnetic Metallic" data-bodystyle="Sport Utility" data-trim="XLT" data-year="2016" data-model="Explorer" data-vin="1FM5K7DH0GGB27305" data-make="Ford" data-index-position="6">
+<div>
+<div class="media">
+<a href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-87c20d9b0a0e0a6b1b4f73a52a53d530.htm">
+<img class="lazy-image photo thumb" src="//static.dealer.com/images/blank.gif?r=1319813457000" data-src="//pictures.dealer.com/ddc/resize/640x/quality/70/sharpen/1/ddc/d/dannyzeckflm/0163/575c4f43691cec6da84624629757e4a7x.jpg" alt="2016 Ford Explorer XLT Sport Utility" title="2016 Ford Explorer XLT Sport Utility near Kansas City">
+</a>
+<a class="dialog video ddc-btn ddc-btn-link ddc-btn-small" href="#" title="2016 Ford Explorer XLT Sport Utility near Kansas City" data-title=" 2016 Ford Explorer XLT FWD" data-href="/carflix-popup.htm?hideVcard=false&amp;videoUrl=//videos2.dealer.com/clients/d/dannyzeckflm/carflix2/87c20d9b0a0e0a6b1b4f73a52a53d530/96b7e62e0a0d0c5321d772cc790d59d1.xml&amp;videoHeight=400&amp;videoWidth=680&amp;autoPlay=true&amp;itemId=87c20d9b0a0e0a6b1b4f73a52a53d530&amp;category=AUTO" data-min-width="730" data-min-height="500" data-draggable="true" data-modal="false" data-destroy-on-close="true">
+<i class="ddc-icon ddc-icon-video"></i>
+Watch Video
+</a>
+<div class="mycars-vlp large-cta">
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-save-btn large-cta  " href="#" data-id="87c20d9b0a0e0a6b1b4f73a52a53d530" data-mycars-save="">
+Save This Car!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-saved-btn mycars-action-set large-cta   hide " href="#" data-id="87c20d9b0a0e0a6b1b4f73a52a53d530" label-remove="Remove Car" label-set="Saved!" data-mycars-remove="">
+Saved!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-add-alert-btn large-cta " href="#" data-id="87c20d9b0a0e0a6b1b4f73a52a53d530">
+Get Price Alerts
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-alerts-isset mycars-action-set large-cta  hide " href="#" data-id="87c20d9b0a0e0a6b1b4f73a52a53d530" label-remove="Remove Alerts" label-set="Alert Set!">
+Alert Set!
+</a>
+</div>
+</div>
+<h3 class="fn  "><a class="url" href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-87c20d9b0a0e0a6b1b4f73a52a53d530.htm"> 2016 Ford Explorer XLT FWD</a></h3>
+<div class="pricing-area has-buttons">
+<ul class="pricing  multiple-prices has-eprice ddc-list-unstyled">
+<li><span class="msrp"><span class="label">Market Value<span class="separator">:</span></span><span class="value">$30,125</span></span></li>
+<li><span class="abSub"><span class="label">Zeck Savings<span class="separator">:</span></span><span class="value">$4,126</span></span></li>
+<li><span class="internetPrice final-price"><span class="label">Your Value Price<span class="separator">:</span></span><span class="value">$25,999</span></span></li>
+<li><a data-href="/eprice-form.htm?itemId=87c20d9b0a0e0a6b1b4f73a52a53d530&amp;vehicleId=87c20d9b0a0e0a6b1b4f73a52a53d530&amp;category=AUTO&amp;parentPageAlias=INVENTORY_LISTING_DEFAULT_AUTO_USED" class="eprice dialog pointer ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary" data-eprice="true"><span class="ui-button-text">BUY IT NOW</span></a></li>
+<li class="kbbCustom">
+<a title="Click here to view the Kelley Blue Book Price Advisor Report for this vehicle" target="_blank" href="http://www.kbbreport.com/1FM5K7DH0GGB27305">
+<img width="110" height="33" alt="Kelley Blue Book Price Advisor Report Logo" src="//www.kbbreport.com/images/banners/kbb_report_110x33.png" style="border: 0px;">
+</a>
+</li>
+</ul>
+</div>
+<div class="description">
+<dl> <dt>Engine:</dt> <dd>2.3L I-4 cyl<span class="separator">,</span></dd> <dt>Transmission:</dt> <dd>6-Speed Automatic with Select-Shift<span class="separator">,</span></dd> <dt>Exterior Color:</dt> <dd>Magnetic Metallic<span class="separator">,</span></dd> <dt>Interior Color:</dt> <dd>Ebony Black<span class="separator">,</span></dd></dl><dl class="last"> <dt>Stock #:</dt> <dd>FCB19124<span class="separator">,</span></dd> <dt>Model Code:</dt> <dd>K7D<span class="separator">,</span></dd> <dt>Drive Line:</dt> <dd>FWD<span class="separator">,</span></dd> <dt>Mileage:</dt> <dd>488</dd></dl> <span class="ddc-more">More<span class="hellip">&#x2026;</span></span> <div class="packages packages-single clear"><span class="packageTitle">Radio: AM/FM Stereo w/Single CD/MP3 Capable  </span>  <span class="packageParens">(</span><span class="packageItems"><span class="packageItem">SYNC</span></span><span class="packageParens">)</span></div>
+<div class="calloutDetails">
+<ul class="ddc-list-unstyled">
+<li class="autocheck"><a href="/iframe.htm?src=http%3A%2F%2Fautocheck.dealer.com%2Fcgi-bin%2Fautocheck.cgi%3Fdealerid%3Ddannyzeckflm%26amp%3Bvin%3D1FM5K7DH0GGB27305&amp;width=990&amp;height=450&amp;scrolling=true" class="badge dialog pointer" target="_blank" data-width="980" data-height="450"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-autocheck.png?r=1405027620000" alt="AutoCheck"></a></li>
+<li class="autovisor">
+<a title="Click here to view the AutoVisor report on this vehicle" target="_blank" href="http://www.myautovisor.com/1FM5K7DH0GGB27305" style="border: 0;">
+<img alt="MyAutoVisor.com Logo" src="http://www.myautovisor.com/images/banners/110x33.png">
+</a>
+</li>
+</ul>
+</div>
+<div class="hproductDynamicArea"></div>
+</div>
+</div>
+</div>
+<div class="item-compare">
+<div class="ddc-form-group">
+<label class="checkbox ddc-checkbox id">
+<input type="checkbox" name="id" class="checkbox" value="87c20d9b0a0e0a6b1b4f73a52a53d530" data-id="">
+<span>Compare</span>
+</label>
+</div><!-- end .ddc-form-group -->
+<a href="" class="compare-submit-link disabled ">
+Compare Selected</a>
+</div>
+,
+<div class="hproduct auto ford" data-classification="primary" data-type="used" data-internetprice="MjY4NDAuMA==" data-msrp="MjgwMjUuMA==" data-exteriorcolor="Blue Jeans Metallic" data-bodystyle="Sport Utility" data-trim="XLT" data-year="2016" data-model="Explorer" data-vin="1FM5K7D83GGB44891" data-make="Ford" data-index-position="7">
+<div>
+<div class="media">
+<a href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-e09eba260a0e0ae774f04c81ab936166.htm">
+<img class="lazy-image photo thumb" src="//static.dealer.com/images/blank.gif?r=1319813457000" data-src="//pictures.dealer.com/ddc/resize/640x/quality/70/sharpen/1/ddc/d/dannyzeckflm/0758/3d4097f11f3a9c4a1ac91f239aa7d46ex.jpg" alt="2016 Ford Explorer XLT Sport Utility" title="2016 Ford Explorer XLT Sport Utility near Kansas City">
+</a>
+<a class="dialog video ddc-btn ddc-btn-link ddc-btn-small" href="#" title="2016 Ford Explorer XLT Sport Utility near Kansas City" data-title=" 2016 Ford Explorer XLT FWD" data-href="/carflix-popup.htm?hideVcard=false&amp;videoUrl=//videos.dealer.com/vehicles/2016/Ford/Explorer/SUV/10474/virtualTour.xml&amp;videoHeight=400&amp;videoWidth=680&amp;autoPlay=true&amp;itemId=e09eba260a0e0ae774f04c81ab936166&amp;category=AUTO" data-min-width="730" data-min-height="500" data-draggable="true" data-modal="false" data-destroy-on-close="true">
+<i class="ddc-icon ddc-icon-video"></i>
+Watch Video
+</a>
+<div class="mycars-vlp large-cta">
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-save-btn large-cta  " href="#" data-id="e09eba260a0e0ae774f04c81ab936166" data-mycars-save="">
+Save This Car!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-saved-btn mycars-action-set large-cta   hide " href="#" data-id="e09eba260a0e0ae774f04c81ab936166" label-remove="Remove Car" label-set="Saved!" data-mycars-remove="">
+Saved!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-add-alert-btn large-cta " href="#" data-id="e09eba260a0e0ae774f04c81ab936166">
+Get Price Alerts
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-alerts-isset mycars-action-set large-cta  hide " href="#" data-id="e09eba260a0e0ae774f04c81ab936166" label-remove="Remove Alerts" label-set="Alert Set!">
+Alert Set!
+</a>
+</div>
+</div>
+<h3 class="fn  "><a class="url" href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-e09eba260a0e0ae774f04c81ab936166.htm"> 2016 Ford Explorer XLT FWD</a></h3>
+<div class="pricing-area has-buttons">
+<ul class="pricing  multiple-prices has-eprice ddc-list-unstyled">
+<li><span class="msrp"><span class="label">Market Value<span class="separator">:</span></span><span class="value">$28,025</span></span></li>
+<li><span class="abSub"><span class="label">Zeck Savings<span class="separator">:</span></span><span class="value">$1,185</span></span></li>
+<li><span class="internetPrice final-price"><span class="label">Your Value Price<span class="separator">:</span></span><span class="value">$26,840</span></span></li>
+<li><a data-href="/eprice-form.htm?itemId=e09eba260a0e0ae774f04c81ab936166&amp;vehicleId=e09eba260a0e0ae774f04c81ab936166&amp;category=AUTO&amp;parentPageAlias=INVENTORY_LISTING_DEFAULT_AUTO_USED" class="eprice dialog pointer ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary" data-eprice="true"><span class="ui-button-text">BUY IT NOW</span></a></li>
+<li class="kbbCustom">
+<a title="Click here to view the Kelley Blue Book Price Advisor Report for this vehicle" target="_blank" href="http://www.kbbreport.com/1FM5K7D83GGB44891">
+<img width="110" height="33" alt="Kelley Blue Book Price Advisor Report Logo" src="//www.kbbreport.com/images/banners/kbb_report_110x33.png" style="border: 0px;">
+</a>
+</li>
+</ul>
+</div>
+<div class="description">
+<dl> <dt>Engine:</dt> <dd>3.5L V-6 cyl<span class="separator">,</span></dd> <dt>Transmission:</dt> <dd>6-Speed Automatic with Select-Shift<span class="separator">,</span></dd> <dt>Exterior Color:</dt> <dd>Blue Jeans Metallic<span class="separator">,</span></dd> <dt>Interior Color:</dt> <dd>Medium Light Camel<span class="separator">,</span></dd></dl><dl class="last"> <dt>Stock #:</dt> <dd>FDA19803<span class="separator">,</span></dd> <dt>Model Code:</dt> <dd>K7D<span class="separator">,</span></dd> <dt>Drive Line:</dt> <dd>FWD<span class="separator">,</span></dd> <dt>Mileage:</dt> <dd>20743</dd></dl> <span class="ddc-more">More<span class="hellip">&#x2026;</span></span> <div class="packages packages-single clear"><span class="packageTitle">Radio: AM/FM Stereo w/Single CD/MP3 Capable  </span>  <span class="packageParens">(</span><span class="packageItems"><span class="packageItem">SYNC</span></span><span class="packageParens">)</span></div>
+<div class="calloutDetails">
+<ul class="ddc-list-unstyled">
+<li class="autocheck"><a href="/iframe.htm?src=http%3A%2F%2Fautocheck.dealer.com%2Fcgi-bin%2Fautocheck.cgi%3Fdealerid%3Ddannyzeckflm%26amp%3Bvin%3D1FM5K7D83GGB44891&amp;width=990&amp;height=450&amp;scrolling=true" class="badge dialog pointer" target="_blank" data-width="980" data-height="450"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-autocheck.png?r=1405027620000" alt="AutoCheck"></a></li><li class="carfax"><a href="http://www.carfax.com/cfm/ccc_displayhistoryrpt.cfm?partner=DLR_3&amp;vin=1FM5K7D83GGB44891" class="badge carfax-one-owner pointer" target="_blank"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-carfax-one-owner-lrg.png?r=1405027620000" alt="Carfax One Owner"></a></li>
+<li class="autovisor">
+<a title="Click here to view the AutoVisor report on this vehicle" target="_blank" href="http://www.myautovisor.com/1FM5K7D83GGB44891" style="border: 0;">
+<img alt="MyAutoVisor.com Logo" src="http://www.myautovisor.com/images/banners/110x33.png">
+</a>
+</li>
+</ul>
+</div>
+<div class="hproductDynamicArea"></div>
+</div>
+</div>
+</div>
+<div class="item-compare">
+<div class="ddc-form-group">
+<label class="checkbox ddc-checkbox id">
+<input type="checkbox" name="id" class="checkbox" value="e09eba260a0e0ae774f04c81ab936166" data-id="">
+<span>Compare</span>
+</label>
+</div><!-- end .ddc-form-group -->
+<a href="" class="compare-submit-link disabled ">
+Compare Selected</a>
+</div>
+,
+<div class="hproduct auto ford" data-classification="primary" data-type="used" data-internetprice="Mjc0NTAuMA==" data-msrp="Mjc2MjUuMA==" data-exteriorcolor="Caribou Metallic" data-bodystyle="Sport Utility" data-trim="XLT" data-year="2016" data-model="Explorer" data-vin="1FM5K7D84GGA63351" data-make="Ford" data-index-position="8">
+<div>
+<div class="media">
+<a href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-af4ce6e80a0e0adf53250b5dcbd3222f.htm">
+<img class="lazy-image photo thumb" src="//static.dealer.com/images/blank.gif?r=1319813457000" data-src="//pictures.dealer.com/ddc/resize/640x/quality/70/sharpen/1/ddc/d/dannyzeckflm/1503/0c737493af776f876cdfe6861d84d0dbx.jpg" alt="2016 Ford Explorer XLT Sport Utility" title="2016 Ford Explorer XLT Sport Utility near Kansas City">
+</a>
+<a class="dialog video ddc-btn ddc-btn-link ddc-btn-small" href="#" title="2016 Ford Explorer XLT Sport Utility near Kansas City" data-title=" 2016 Ford Explorer XLT FWD" data-href="/carflix-popup.htm?hideVcard=false&amp;videoUrl=//videos2.dealer.com/clients/d/dannyzeckflm/carflix2/af4ce6e80a0e0adf53250b5dcbd3222f/cba736540a0d0c53207e8966c02c663e.xml&amp;videoHeight=400&amp;videoWidth=680&amp;autoPlay=true&amp;itemId=af4ce6e80a0e0adf53250b5dcbd3222f&amp;category=AUTO" data-min-width="730" data-min-height="500" data-draggable="true" data-modal="false" data-destroy-on-close="true">
+<i class="ddc-icon ddc-icon-video"></i>
+Watch Video
+</a>
+<div class="mycars-vlp large-cta">
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-save-btn large-cta  " href="#" data-id="af4ce6e80a0e0adf53250b5dcbd3222f" data-mycars-save="">
+Save This Car!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-saved-btn mycars-action-set large-cta   hide " href="#" data-id="af4ce6e80a0e0adf53250b5dcbd3222f" label-remove="Remove Car" label-set="Saved!" data-mycars-remove="">
+Saved!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-add-alert-btn large-cta " href="#" data-id="af4ce6e80a0e0adf53250b5dcbd3222f">
+Get Price Alerts
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-alerts-isset mycars-action-set large-cta  hide " href="#" data-id="af4ce6e80a0e0adf53250b5dcbd3222f" label-remove="Remove Alerts" label-set="Alert Set!">
+Alert Set!
+</a>
+</div>
+</div>
+<h3 class="fn  "><a class="url" href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-af4ce6e80a0e0adf53250b5dcbd3222f.htm"> 2016 Ford Explorer XLT FWD</a></h3>
+<div class="pricing-area has-buttons">
+<ul class="pricing  multiple-prices has-eprice ddc-list-unstyled">
+<li><span class="msrp"><span class="label">Market Value<span class="separator">:</span></span><span class="value">$27,625</span></span></li>
+<li><span class="abSub"><span class="label">Zeck Savings<span class="separator">:</span></span><span class="value">$175</span></span></li>
+<li><span class="internetPrice final-price"><span class="label">Your Value Price<span class="separator">:</span></span><span class="value">$27,450</span></span></li>
+<li><a data-href="/eprice-form.htm?itemId=af4ce6e80a0e0adf53250b5dcbd3222f&amp;vehicleId=af4ce6e80a0e0adf53250b5dcbd3222f&amp;category=AUTO&amp;parentPageAlias=INVENTORY_LISTING_DEFAULT_AUTO_USED" class="eprice dialog pointer ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary" data-eprice="true"><span class="ui-button-text">BUY IT NOW</span></a></li>
+<li class="kbbCustom">
+<a title="Click here to view the Kelley Blue Book Price Advisor Report for this vehicle" target="_blank" href="http://www.kbbreport.com/1FM5K7D84GGA63351">
+<img width="110" height="33" alt="Kelley Blue Book Price Advisor Report Logo" src="//www.kbbreport.com/images/banners/kbb_report_110x33.png" style="border: 0px;">
+</a>
+</li>
+</ul>
+</div>
+<div class="description">
+<dl> <dt>Engine:</dt> <dd>3.5L V-6 cyl<span class="separator">,</span></dd> <dt>Transmission:</dt> <dd>6-Speed Automatic with Select-Shift<span class="separator">,</span></dd> <dt>Exterior Color:</dt> <dd>Caribou Metallic<span class="separator">,</span></dd> <dt>Interior Color:</dt> <dd>Medium Light Camel<span class="separator">,</span></dd></dl><dl class="last"> <dt>Stock #:</dt> <dd>F19706<span class="separator">,</span></dd> <dt>Model Code:</dt> <dd>K7D<span class="separator">,</span></dd> <dt>Drive Line:</dt> <dd>FWD<span class="separator">,</span></dd> <dt>Mileage:</dt> <dd>34424</dd></dl> <span class="ddc-more">More<span class="hellip">&#x2026;</span></span> <div class="packages packages-single clear"><span class="packageTitle">Radio: AM/FM Stereo w/Single CD/MP3 Capable  </span>  <span class="packageParens">(</span><span class="packageItems"><span class="packageItem">SYNC</span></span><span class="packageParens">)</span></div>
+<div class="calloutDetails">
+<ul class="ddc-list-unstyled">
+<li class="autocheck"><a href="/iframe.htm?src=http%3A%2F%2Fautocheck.dealer.com%2Fcgi-bin%2Fautocheck.cgi%3Fdealerid%3Ddannyzeckflm%26amp%3Bvin%3D1FM5K7D84GGA63351&amp;width=990&amp;height=450&amp;scrolling=true" class="badge dialog pointer" target="_blank" data-width="980" data-height="450"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-autocheck.png?r=1405027620000" alt="AutoCheck"></a></li><li class="carfax"><a href="http://www.carfax.com/cfm/ccc_displayhistoryrpt.cfm?partner=DLR_3&amp;vin=1FM5K7D84GGA63351" class="badge carfax-one-owner pointer" target="_blank"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-carfax-one-owner-lrg.png?r=1405027620000" alt="Carfax One Owner"></a></li>
+<li class="autovisor">
+<a title="Click here to view the AutoVisor report on this vehicle" target="_blank" href="http://www.myautovisor.com/1FM5K7D84GGA63351" style="border: 0;">
+<img alt="MyAutoVisor.com Logo" src="http://www.myautovisor.com/images/banners/110x33.png">
+</a>
+</li>
+</ul>
+</div>
+<div class="hproductDynamicArea"></div>
+</div>
+</div>
+</div>
+<div class="item-compare">
+<div class="ddc-form-group">
+<label class="checkbox ddc-checkbox id">
+<input type="checkbox" name="id" class="checkbox" value="af4ce6e80a0e0adf53250b5dcbd3222f" data-id="">
+<span>Compare</span>
+</label>
+</div><!-- end .ddc-form-group -->
+<a href="" class="compare-submit-link disabled ">
+Compare Selected</a>
+</div>
+,
+<div class="hproduct auto ford" data-classification="primary" data-type="used" data-internetprice="Mjg3OTkuMA==" data-msrp="Mjk0MjUuMA==" data-exteriorcolor="Blue Jeans Metallic" data-bodystyle="Sport Utility" data-trim="XLT" data-year="2016" data-model="Explorer" data-vin="1FM5K8D84GGA37998" data-make="Ford" data-index-position="9">
+<div>
+<div class="media">
+<a href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-a534c5c90a0e0a1739fb5aa3c0623300.htm">
+<img class="lazy-image photo thumb" src="//static.dealer.com/images/blank.gif?r=1319813457000" data-src="//pictures.dealer.com/ddc/resize/640x/quality/70/sharpen/1/ddc/d/dannyzeckflm/0524/5fa85fcc946c98a869d94a53776875f7x.jpg" alt="2016 Ford Explorer XLT Sport Utility" title="2016 Ford Explorer XLT Sport Utility near Kansas City">
+</a>
+<a class="dialog video ddc-btn ddc-btn-link ddc-btn-small" href="#" title="2016 Ford Explorer XLT Sport Utility near Kansas City" data-title=" 2016 Ford Explorer XLT AWD" data-href="/carflix-popup.htm?hideVcard=false&amp;videoUrl=//videos2.dealer.com/clients/d/dannyzeckflm/carflix2/a534c5c90a0e0a1739fb5aa3c0623300/c65c13230a0d0c5354ef813d813c24ab.xml&amp;videoHeight=400&amp;videoWidth=680&amp;autoPlay=true&amp;itemId=a534c5c90a0e0a1739fb5aa3c0623300&amp;category=AUTO" data-min-width="730" data-min-height="500" data-draggable="true" data-modal="false" data-destroy-on-close="true">
+<i class="ddc-icon ddc-icon-video"></i>
+Watch Video
+</a>
+<div class="mycars-vlp large-cta">
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-save-btn large-cta  " href="#" data-id="a534c5c90a0e0a1739fb5aa3c0623300" data-mycars-save="">
+Save This Car!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-saved-btn mycars-action-set large-cta   hide " href="#" data-id="a534c5c90a0e0a1739fb5aa3c0623300" label-remove="Remove Car" label-set="Saved!" data-mycars-remove="">
+Saved!
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-add-alert-btn large-cta " href="#" data-id="a534c5c90a0e0a1739fb5aa3c0623300">
+Get Price Alerts
+</a>
+<a class="ddc-btn ddc-btn-default mycars-btn mycars-alerts-isset mycars-action-set large-cta  hide " href="#" data-id="a534c5c90a0e0a1739fb5aa3c0623300" label-remove="Remove Alerts" label-set="Alert Set!">
+Alert Set!
+</a>
+</div>
+</div>
+<h3 class="fn  "><a class="url" href="/used/Ford/2016-Ford-Explorer-for-sale-near-Kansas-City-a534c5c90a0e0a1739fb5aa3c0623300.htm"> 2016 Ford Explorer XLT AWD</a></h3>
+<div class="pricing-area has-buttons">
+<ul class="pricing  multiple-prices has-eprice ddc-list-unstyled">
+<li><span class="msrp"><span class="label">Market Value<span class="separator">:</span></span><span class="value">$29,425</span></span></li>
+<li><span class="abSub"><span class="label">Zeck Savings<span class="separator">:</span></span><span class="value">$626</span></span></li>
+<li><span class="internetPrice final-price"><span class="label">Your Value Price<span class="separator">:</span></span><span class="value">$28,799</span></span></li>
+<li><a data-href="/eprice-form.htm?itemId=a534c5c90a0e0a1739fb5aa3c0623300&amp;vehicleId=a534c5c90a0e0a1739fb5aa3c0623300&amp;category=AUTO&amp;parentPageAlias=INVENTORY_LISTING_DEFAULT_AUTO_USED" class="eprice dialog pointer ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary ddc-btn ddc-btn-primary" data-eprice="true"><span class="ui-button-text">BUY IT NOW</span></a></li>
+<li class="kbbCustom">
+<a title="Click here to view the Kelley Blue Book Price Advisor Report for this vehicle" target="_blank" href="http://www.kbbreport.com/1FM5K8D84GGA37998">
+<img width="110" height="33" alt="Kelley Blue Book Price Advisor Report Logo" src="//www.kbbreport.com/images/banners/kbb_report_110x33.png" style="border: 0px;">
+</a>
+</li>
+</ul>
+</div>
+<div class="description">
+<dl> <dt>Engine:</dt> <dd>3.5L V-6 cyl<span class="separator">,</span></dd> <dt>Transmission:</dt> <dd>6-Speed Automatic with Select-Shift<span class="separator">,</span></dd> <dt>Exterior Color:</dt> <dd>Blue Jeans Metallic<span class="separator">,</span></dd> <dt>Interior Color:</dt> <dd>Medium Light Camel<span class="separator">,</span></dd></dl><dl class="last"> <dt>Stock #:</dt> <dd>FD19696<span class="separator">,</span></dd> <dt>Model Code:</dt> <dd>K8D<span class="separator">,</span></dd> <dt>Drive Line:</dt> <dd>AWD<span class="separator">,</span></dd> <dt>Mileage:</dt> <dd>30475</dd></dl> <span class="ddc-more">More<span class="hellip">&#x2026;</span></span> <div class="packages packages-single clear"><span class="packageTitle">Radio: AM/FM Stereo w/Single CD/MP3 Capable  </span>  <span class="packageParens">(</span><span class="packageItems"><span class="packageItem">SYNC</span></span><span class="packageParens">)</span></div>
+<div class="calloutDetails">
+<ul class="ddc-list-unstyled">
+<li class="autocheck"><a href="/iframe.htm?src=http%3A%2F%2Fautocheck.dealer.com%2Fcgi-bin%2Fautocheck.cgi%3Fdealerid%3Ddannyzeckflm%26amp%3Bvin%3D1FM5K8D84GGA37998&amp;width=990&amp;height=450&amp;scrolling=true" class="badge dialog pointer" target="_blank" data-width="980" data-height="450"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-autocheck.png?r=1405027620000" alt="AutoCheck"></a></li><li class="carfax"><a href="http://www.carfax.com/cfm/ccc_displayhistoryrpt.cfm?partner=DLR_3&amp;vin=1FM5K8D84GGA37998" class="badge carfax-one-owner pointer" target="_blank"><img class="align-center" src="//static.dealer.com/v8/global/images/franchise/white/logo-certified-carfax-one-owner-lrg.png?r=1405027620000" alt="Carfax One Owner"></a></li>
+<li class="autovisor">
+<a title="Click here to view the AutoVisor report on this vehicle" target="_blank" href="http://www.myautovisor.com/1FM5K8D84GGA37998" style="border: 0;">
+<img alt="MyAutoVisor.com Logo" src="http://www.myautovisor.com/images/banners/110x33.png">
+</a>
+</li>
+</ul>
+</div>
+<div class="hproductDynamicArea"></div>
+</div>
+</div>
+</div>
+<div class="item-compare">
+<div class="ddc-form-group">
+<label class="checkbox ddc-checkbox id">
+<input type="checkbox" name="id" class="checkbox" value="a534c5c90a0e0a1739fb5aa3c0623300" data-id="">
+<span>Compare</span>
+</label>
+</div><!-- end .ddc-form-group -->
+<a href="" class="compare-submit-link disabled ">
+Compare Selected</a>
+</div>
