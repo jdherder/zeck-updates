@@ -1,17 +1,66 @@
+const commandLineArgs = require('command-line-args');
 const fs = require('fs');
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 
+const optionDefinitions = [
+  { name: 'year', type: Number, multiple: true },
+  { name: 'make', type: String },
+  { name: 'model', type: String },
+  { name: 'pricelow', type: Number },
+  { name: 'pricehigh', type: Number },
+];
+
+const options = commandLineArgs(optionDefinitions);
+
+console.log(options);
+
 init();
 
+
+/* functions */
+
 function init() {
-  const zeckSearchUrl = 'http://www.zeckford.com/used-inventory/index.htm?year=2016&make=Ford&model=Explorer&internetPrice=20000-24999%2C25000-29999&sortBy=internetPrice+asc&';
+  const zeckSearchUrl = buildUrlFromOptions(options);
 
   fetch(zeckSearchUrl)
     .then(res => res.text())
     .then(parseHtmlToData)
     .then(saveJsonToDisk)
     .catch(e => console.log('Could not get page data! ', e));
+}
+
+function buildUrlFromOptions(options) {
+  // http://www.zeckford.com/used-inventory/index.htm?year=2016&make=Ford&model=Explorer&internetPrice=20000-24999%2C25000-29999&sortBy=internetPrice+asc&
+
+  let url = 'http://www.zeckford.com/used-inventory/index.htm?';
+
+  if (options.year && options.year.length > 0) {
+    options.year.forEach(year => {
+      url += `&year=${year}`;
+    });
+  }
+
+  if (options.make) {
+    url += `&make=${options.make}`;
+  }
+
+  if (options.model) {
+    url += `&model=${options.model}`;
+  }
+
+  if (options.pricehigh && options.pricehigh > 0) {
+    if (!options.pricelow) {
+      options.pricelow = 1;
+    }
+
+    url += `&internetPrice=${options.pricelow}-${options.pricehigh}`;
+  }
+
+  /* add sort */
+  url += '&sortBy=internetPrice+asc&';
+
+  return url;
 }
 
 function parseHtmlToData(markup) {
@@ -52,7 +101,7 @@ function parseHtmlToData(markup) {
 }
 
 function saveJsonToDisk(data) {
-  const json = JSON.stringify(data);
+  const json = JSON.stringify(data, null, 2);
   fs.writeFile('vehicles.json', json, 'utf8', function() {});
 }
 
@@ -85,5 +134,6 @@ function findVehDetailLink($veh) {
 }
 
 function findVehImg($veh) {
-  return $veh.find('.media > a > img').attr('src');
+  const protocolRelativeUrl = $veh.find('.media > a > img').attr('src');
+  return `https:${protocolRelativeUrl}`;
 }

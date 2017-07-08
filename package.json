@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "mustang": "node index.js --make Ford --model Mustang --pricehigh 25000 --year 2015 --year 2016 --year 2017",
+    "explorer": "node index.js --year 2016 --year 2017 --make Ford --model Explorer --pricehigh 28000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cheerio": "^0.22.0",
+    "command-line-args": "^4.0.6",
     "node-fetch": "^1.6.3"
   }
 }
