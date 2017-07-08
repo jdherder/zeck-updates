@@ -13,8 +13,6 @@ const optionDefinitions = [
 
 const options = commandLineArgs(optionDefinitions);
 
-console.log(options);
-
 init();
 
 
