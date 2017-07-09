@@ -2,6 +2,7 @@
 
 const commandLineArgs = require('command-line-args');
 const fs = require('fs');
+const path = require('path');
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 
@@ -109,7 +110,7 @@ function parseHtmlToData(markup) {
 
 function saveJsonToDisk(data) {
   const json = JSON.stringify(data, null, 2);
-  fs.writeFile('vehicles.json', json, 'utf8', function() {});
+  fs.writeFile(path.join(__dirname, 'vehicles.json'), json, 'utf8', function() {});
 
   return data;
 }
@@ -152,7 +153,7 @@ function findVehImg($veh) {
 }
 
 function compareNewVehicles(newVehicleData) {
-  const prevFoundVehicles = JSON.parse(fs.readFileSync('vehicles.json'));
+  const prevFoundVehicles = JSON.parse(fs.readFileSync(path.join(__dirname, 'vehicles.json')));
 
   var newVehiclesSinceLastRun = newVehicleData.filter(nv => {
     return prevFoundVehicles.filter(pv => pv.stockNum == nv.stockNum).length === 0;
