@@ -1,3 +1,5 @@
+'use strict';
+
 const commandLineArgs = require('command-line-args');
 const fs = require('fs');
 const fetch = require('node-fetch');
