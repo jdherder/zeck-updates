@@ -170,8 +170,9 @@ function sendSlackNotification(v) {
   const test = {
     "attachments": [
       {
-        pretext: 'New vehicle found!',
-        text: '',
+        fallback: `A new ${v.year} ${v.make} ${v.model} found!`,
+        pretext: '',
+        text: 'New vehicle found!',
         title: `${v.year} ${v.make} ${v.model} ${v.trim} - ${v.stockNum}`,
         title_link: v.url,
         fields: [
