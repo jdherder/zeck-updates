@@ -13,27 +13,31 @@ const optionDefinitions = [
   { name: 'make', type: String, multiple: true },
   { name: 'model', type: String, multiple: true },
   { name: 'style', type: String, multiple: true },
-  { name: 'condition', type: Boolean, multiple: true },
   { name: 'pricelow', type: Number },
   { name: 'pricehigh', type: Number },
 ];
 
-const options = commandLineArgs(optionDefinitions);
-
-init();
+init(commandLineArgs(optionDefinitions));
 
 
 /* functions */
 
-function init() {
-  const zeckSearchUrls = buildUrlsFromOptions(options);
+function init(options) {
+  const urls = buildUrlsFromOptions(options);
+  const promises = urls.map(getPageData);
 
-  fetch(zeckSearchUrls.usedSearch)
-    .then(res => res.text())
-    .then(parseHtmlToData)
+  Promise
+    .all(promises)
+    .then(results => results.reduce((sum, value) => sum.concat(value || []), []))
     .then(compareNewVehicles)
     .then(saveJsonToDisk)
     .catch(e => console.log('Could not get page data! ', e));
+}
+
+function getPageData(url) {
+  return fetch(url)
+    .then(res => res.text())
+    .then(parseHtmlToData);
 }
 
 function buildUrlsFromOptions(options) {
@@ -63,7 +67,7 @@ function buildUrlsFromOptions(options) {
 
   if (options.style && options.style.length > 0) {
     options.style.forEach(style => {
-      params += `&style=${style}`;
+      params += `&bodyStyle=${style}`;
     });
   }
 
@@ -75,13 +79,13 @@ function buildUrlsFromOptions(options) {
     params += `&internetPrice=${options.pricelow}-${options.pricehigh}`;
   }
 
-  const urls = {
-    newSearch: 'http://www.zeckford.com/new-inventory/index.htm?' + params,
-    usedSearch: 'http://www.zeckford.com/used-inventory/index.htm?' + params,
-  };
+  const urls = [
+    'http://www.zeckford.com/new-inventory/index.htm?' + params,
+    'http://www.zeckford.com/used-inventory/index.htm?' + params,
+  ];
 
-  console.log('Query URL (new): ', urls.newSearch);
-  console.log('Query URL (used): ', urls.usedSearch);
+  console.log('Query URL (new): ', urls[0]);
+  console.log('Query URL (used): ', urls[1]);
 
   return urls;
 }
@@ -156,7 +160,9 @@ function findVehDetailLink($veh) {
 }
 
 function findVehImg($veh) {
-  const protocolRelativeUrl = $veh.find('.hproduct .thumb').attr('data-src');
+  const $vehThumb = $veh.find('.hproduct .thumb');
+  const protocolRelativeUrl = $vehThumb.attr('data-src') || $vehThumb.attr('src');
+
   return `https:${protocolRelativeUrl}`;
 }
 
