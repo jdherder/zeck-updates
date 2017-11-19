@@ -1,5 +1,7 @@
 'use strict';
 
+/* Sample run command: node index.js --make Ford --model F-150 --pricehigh 35000 */
+
 const commandLineArgs = require('command-line-args');
 const fs = require('fs');
 const path = require('path');
@@ -10,48 +12,62 @@ const optionDefinitions = [
   { name: 'year', type: Number, multiple: true },
   { name: 'make', type: String, multiple: true },
   { name: 'model', type: String, multiple: true },
+  { name: 'style', type: String, multiple: true },
   { name: 'pricelow', type: Number },
   { name: 'pricehigh', type: Number },
 ];
 
-const options = commandLineArgs(optionDefinitions);
-
-init();
+init(commandLineArgs(optionDefinitions));
 
 
 /* functions */
 
-function init() {
-  const zeckSearchUrl = buildUrlFromOptions(options);
+function init(options) {
+  const urls = buildUrlsFromOptions(options);
+  const promises = urls.map(getPageData);
 
-  fetch(zeckSearchUrl)
-    .then(res => res.text())
-    .then(parseHtmlToData)
+  Promise
+    .all(promises)
+    .then(results => results.reduce((sum, value) => sum.concat(value || []), []))
     .then(compareNewVehicles)
     .then(saveJsonToDisk)
     .catch(e => console.log('Could not get page data! ', e));
 }
 
-function buildUrlFromOptions(options) {
+function getPageData(url) {
+  return fetch(url)
+    .then(res => res.text())
+    .then(parseHtmlToData);
+}
+
+function buildUrlsFromOptions(options) {
   // http://www.zeckford.com/used-inventory/index.htm?year=2016&make=Ford&model=Explorer&internetPrice=20000-24999%2C25000-29999&sortBy=internetPrice+asc&
 
-  let url = 'http://www.zeckford.com/used-inventory/index.htm?';
+  // http://www.zeckford.com/new-inventory/index.htm?model=F-150&bodyStyle=SuperCrew&internetPrice=0-44999
+
+  let params = '';
 
   if (options.year && options.year.length > 0) {
     options.year.forEach(year => {
-      url += `&year=${year}`;
+      params += `&year=${year}`;
     });
   }
 
   if (options.make && options.make.length > 0) {
     options.make.forEach(make => {
-      url += `&make=${make}`;
+      params += `&make=${make}`;
     });
   }
 
   if (options.model && options.model.length > 0) {
     options.model.forEach(model => {
-      url += `&model=${model}`;
+      params += `&model=${model}`;
+    });
+  }
+
+  if (options.style && options.style.length > 0) {
+    options.style.forEach(style => {
+      params += `&bodyStyle=${style}`;
     });
   }
 
@@ -60,15 +76,18 @@ function buildUrlFromOptions(options) {
       options.pricelow = 1;
     }
 
-    url += `&internetPrice=${options.pricelow}-${options.pricehigh}`;
+    params += `&internetPrice=${options.pricelow}-${options.pricehigh}`;
   }
 
-  /* add sort */
-  url += '&sortBy=internetPrice+asc&';
+  const urls = [
+    'http://www.zeckford.com/new-inventory/index.htm?' + params,
+    'http://www.zeckford.com/used-inventory/index.htm?' + params,
+  ];
 
-  console.log('Query URL: ', url);
+  console.log('Query URL (new): ', urls[0]);
+  console.log('Query URL (used): ', urls[1]);
 
-  return url;
+  return urls;
 }
 
 function parseHtmlToData(markup) {
@@ -108,13 +127,6 @@ function parseHtmlToData(markup) {
   });
 }
 
-function saveJsonToDisk(data) {
-  const json = JSON.stringify(data, null, 2);
-  fs.writeFile(path.join(__dirname, 'vehicles.json'), json, 'utf8', function() {});
-
-  return data;
-}
-
 /**
  * Use regex to pull data between given attr string and terminating string.
  * @param $veh
@@ -148,22 +160,50 @@ function findVehDetailLink($veh) {
 }
 
 function findVehImg($veh) {
-  const protocolRelativeUrl = $veh.find('.hproduct .thumb').attr('data-src');
+  const $vehThumb = $veh.find('.hproduct .thumb');
+  const protocolRelativeUrl = $vehThumb.attr('data-src') || $vehThumb.attr('src');
+
   return `https:${protocolRelativeUrl}`;
 }
 
 function compareNewVehicles(newVehicleData) {
-  const prevFoundVehicles = JSON.parse(fs.readFileSync(path.join(__dirname, 'vehicles.json')));
+  let prevFoundVehicles = {};
 
-  var newVehiclesSinceLastRun = newVehicleData.filter(nv => {
-    return prevFoundVehicles.filter(pv => pv.stockNum == nv.stockNum).length === 0;
-  });
+  try {
+    prevFoundVehicles = JSON.parse(fs.readFileSync(path.join(__dirname, 'vehicles.json')));
+  } catch(e) {
+    console.error('Could not load vehicles.json', e);
+  }
+
+  // If new vehicle key (stock #) is found in prev vehicle list, filter it out.
+  const newVehiclesSinceLastRun = newVehicleData
+    .filter(newVeh => {
+      return !prevFoundVehicles[newVeh.stockNum];
+    });
 
   newVehiclesSinceLastRun.forEach(v => {
     sendSlackNotification(v);
   });
 
-  return newVehicleData;
+  return {
+    newVehArr: newVehiclesSinceLastRun,
+    prevVehObj: prevFoundVehicles,
+  };
+}
+
+function saveJsonToDisk(data) {
+  let newFoundVehiclesObj = {};
+
+  data.newVehArr.forEach(veh => {
+    newFoundVehiclesObj[veh.stockNum] = veh;
+  });
+
+  const vehicles = Object.assign({}, newFoundVehiclesObj, data.prevVehObj);
+  const json = JSON.stringify(vehicles, null, 2);
+
+  fs.writeFile(path.join(__dirname, 'vehicles.json'), json, 'utf8', function() {});
+
+  return vehicles;
 }
 
 function sendSlackNotification(v) {
