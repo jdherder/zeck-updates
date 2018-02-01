@@ -162,8 +162,7 @@ function findVehDetailLink($veh) {
 function findVehImg($veh) {
   const $vehThumb = $veh.find('.hproduct .thumb');
   const protocolRelativeUrl = $vehThumb.attr('data-src') || $vehThumb.attr('src');
-
-  return `https:${protocolRelativeUrl}`;
+  return protocolRelativeUrl;
 }
 
 function compareNewVehicles(newVehicleData) {
