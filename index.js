@@ -1,6 +1,6 @@
 'use strict';
 
-/* Sample run command: node index.js --make Ford --model F-150 --pricehigh 35000 */
+/* USAGE: node index.js --make Ford --model F-150 --year 2015 --year 2016 --year 2017 --year 2018 --year 2019 --pricehigh 38000 --search SuperCrew --testing true */
 
 const commandLineArgs = require('command-line-args');
 const fs = require('fs');
@@ -9,22 +9,25 @@ const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 
 const optionDefinitions = [
+  { name: 'testing', type: Boolean },
   { name: 'year', type: Number, multiple: true },
   { name: 'make', type: String, multiple: true },
   { name: 'model', type: String, multiple: true },
-  { name: 'style', type: String, multiple: true },
   { name: 'pricelow', type: Number },
   { name: 'pricehigh', type: Number },
+  { name: 'search', type: String },
 ];
 
-init(commandLineArgs(optionDefinitions));
+const options = commandLineArgs(optionDefinitions);
+
+init();
 
 
 /* functions */
 
-function init(options) {
+function init() {
   const urls = buildUrlsFromOptions(options);
-  const promises = urls.map(getPageData);
+  const promises = urls.map((urlData, i) => getPageData(urlData, i));
 
   Promise
     .all(promises)
@@ -34,40 +37,41 @@ function init(options) {
     .catch(e => console.log('Could not get page data! ', e));
 }
 
-function getPageData(url) {
-  return fetch(url)
-    .then(res => res.text())
-    .then(parseHtmlToData);
+function getPageData(urlData, promiseIndex) {
+  return fetch(urlData.host, {
+    body: urlData.params,
+    headers: {
+      'content-type': 'application/x-www-form-urlencoded'
+    },
+    method: 'POST',
+  })
+  .then(response => response.json())
+  .then(data => data.results)
+  .then(parseHtmlToData);
 }
 
 function buildUrlsFromOptions(options) {
-  // http://www.zeckford.com/used-inventory/index.htm?year=2016&make=Ford&model=Explorer&internetPrice=20000-24999%2C25000-29999&sortBy=internetPrice+asc&
+  // https://www.zeckford.com/new-vehicles/#action=im_ajax_call&perform=get_results&our_price%5B%5D=0-40000&page=1&order=DESC&orderby=price&type%5B%5D=New&type%5B%5D=Used&model%5B%5D=F-150&year%5B%5D=2018&year%5B%5D=2017&year%5B%5D=2016&year%5B%5D=2015
 
-  // http://www.zeckford.com/new-inventory/index.htm?model=F-150&bodyStyle=SuperCrew&internetPrice=0-44999
+  let params = 'action=im_ajax_call&perform=get_results&_nonce=77ee188e968e56c1e6f6cf2df606b713&_post_id=6&_referer=/used-vehicles/';
 
-  let params = '';
+  params += `&type%5B%5D=New&type%5B%5D=Used&type%5B%5D=Certified+Used`;
 
   if (options.year && options.year.length > 0) {
     options.year.forEach(year => {
-      params += `&year=${year}`;
+      params += `&year%5B%5D=${year}`;
     });
   }
 
   if (options.make && options.make.length > 0) {
     options.make.forEach(make => {
-      params += `&make=${make}`;
+      params += `&make%5B%5D=${make}`;
     });
   }
 
   if (options.model && options.model.length > 0) {
     options.model.forEach(model => {
-      params += `&model=${model}`;
-    });
-  }
-
-  if (options.style && options.style.length > 0) {
-    options.style.forEach(style => {
-      params += `&bodyStyle=${style}`;
+      params += `&model%5B%5D=${model}`;
     });
   }
 
@@ -76,18 +80,24 @@ function buildUrlsFromOptions(options) {
       options.pricelow = 1;
     }
 
-    params += `&internetPrice=${options.pricelow}-${options.pricehigh}`;
+    params += `&our_price%5B%5D=${options.pricelow}-${options.pricehigh}`;
   }
 
-  const urls = [
-    'http://www.zeckford.com/new-inventory/index.htm?' + params,
-    'http://www.zeckford.com/used-inventory/index.htm?' + params,
-  ];
+  if (options.search) {
+    params += `&search=${encodeURI(options.search)}`;
+  }
 
-  console.log('Query URL (new): ', urls[0]);
-  console.log('Query URL (used): ', urls[1]);
+  const host = 'https://www.zeckford.com/';
 
-  return urls;
+  // TODO: The site will force pagination on a query. Currently this is an arbitrary number of pages to hopefully get all results, ideally we would find out how many pages the result set has and make only that many requests.
+  const urlData = [1, 2, 3, 4, 5, 6].map((pageNum) => {
+    return {
+      host: host,
+      params: params + `&page=${pageNum}`,
+    }
+  });
+
+  return urlData;
 }
 
 function parseHtmlToData(markup) {
@@ -95,28 +105,35 @@ function parseHtmlToData(markup) {
   const vehicles = [];
   const $vehArr = [];
 
-  $('.inventoryList .item').each(function() {
+  // Note: Intentional use of function() here, otherwise $(this) context does not work as expected.
+  $('.vehicle').each(function() {
     $vehArr.push($(this));
   });
 
   $vehArr.forEach($veh => {
+
+    // If not even a year is present, early return and do not add to vehicles array.
+    if (!$veh.data('year')) {
+      return;
+    }
+
     const vehicle = {
-      stockNum: findVehDescriptionData($veh, 'Stock #'),
-      price: findVehPrice($veh),
-      mileage: findVehDescriptionData($veh, 'Mileage'),
-      year: findVehHProductData($veh, 'data-year'),
-      make: findVehHProductData($veh, 'data-make'),
-      model: findVehHProductData($veh, 'data-model'),
-      trim: findVehHProductData($veh, 'data-trim'),
-      bodyStyle: findVehHProductData($veh, 'data-bodystyle'),
-      engine: findVehDescriptionData($veh, 'Engine'),
-      transmission: findVehDescriptionData($veh, 'Transmission'),
-      extColor: findVehDescriptionData($veh, 'Exterior Color'),
-      intColor: findVehDescriptionData($veh, 'Interior Color'),
-      vin: findVehHProductData($veh, 'data-vin'),
-      type: findVehHProductData($veh, 'data-type'),
-      url: findVehDetailLink($veh),
-      image: findVehImg($veh),
+      stockNum: $veh.data('stock'),
+      price: $veh.find('.save-things-save').data('amount'),
+      mileage: $veh.data('mileage'),
+      year: $veh.data('year'),
+      make: $veh.data('make'),
+      model: $veh.data('model'),
+      trim: $veh.data('trim'),
+      bodyStyle: $veh.data('body'),
+      engine: $veh.data('engine'),
+      transmission: $veh.data('transmission'),
+      extColor: $veh.data('ext-color'),
+      intColor: $veh.data('int-color'),
+      vin: $veh.find('.save-things-save').data('remote-id'),
+      type: $veh.data('type'),
+      url: $veh.find('.save-things-save').data('url'),
+      image: $veh.find('.save-things-save').data('thumbnail-url'),
     };
 
     vehicles.push(vehicle);
@@ -125,44 +142,6 @@ function parseHtmlToData(markup) {
   return new Promise((resolve, reject) => {
     resolve(vehicles);
   });
-}
-
-/**
- * Use regex to pull data between given attr string and terminating string.
- * @param $veh
- * @param attr
- * @returns {string}
- */
-function findVehDescriptionData($veh, attr) {
-  const descriptionData = $veh.find('.description').text();
-  const exp = `${attr}: (.*?)(,| More)`;
-  const regex = new RegExp(exp);
-  const match = descriptionData.match(regex);
-
-  if (match) {
-    return match[1];
-  }
-
-  return '';
-}
-
-function findVehPrice($veh) {
-  return $veh.find('.internetPrice.final-price .value').text();
-}
-
-function findVehHProductData($veh, attr) {
-  return $veh.find('.hproduct').attr(attr);
-}
-
-function findVehDetailLink($veh) {
-  const relPath = $veh.find('.media > a').attr('href');
-  return `http://www.zeckford.com${relPath}`;
-}
-
-function findVehImg($veh) {
-  const $vehThumb = $veh.find('.hproduct .thumb');
-  const protocolRelativeUrl = $vehThumb.attr('data-src') || $vehThumb.attr('src');
-  return protocolRelativeUrl;
 }
 
 function compareNewVehicles(newVehicleData) {
@@ -180,9 +159,13 @@ function compareNewVehicles(newVehicleData) {
       return !prevFoundVehicles[newVeh.stockNum];
     });
 
-  newVehiclesSinceLastRun.forEach(v => {
-    sendSlackNotification(v);
-  });
+  if (!options.testing) {
+    newVehiclesSinceLastRun.forEach(v => {
+      sendSlackNotification(v);
+    });
+  } else {
+    console.log('Testing mode: Skipping notification.');
+  }
 
   return {
     newVehArr: newVehiclesSinceLastRun,
