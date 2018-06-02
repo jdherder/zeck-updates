@@ -26,23 +26,49 @@ init();
 /* functions */
 
 function init() {
-  const urls = buildUrlsFromOptions(options);
-  const promises = urls.map((urlData, i) => getPageData(urlData, i));
+  // const urls = buildUrlsFromOptions(options);
+  // const promises = urls.map((urlData, i) => getPageData(urlData, i));
 
-  Promise
-    .all(promises)
-    .then(results => results.reduce((sum, value) => sum.concat(value || []), []))
+  getNonce()
+    .then(nonce => buildUrlsFromOptions(options, nonce).map(urlData => getPageData(urlData)))
+    .then(pageDataPromises => Promise.all(pageDataPromises))
+    .then(pageDataResults => pageDataResults.reduce((sum, value) => sum.concat(value || []), []))
     .then(compareNewVehicles)
     .then(saveJsonToDisk)
     .catch(e => console.log('Could not get page data! ', e));
+
+  // Promise
+  //   .all(promises)
+  //   .then(results => results.reduce((sum, value) => sum.concat(value || []), []))
+  //   .then(compareNewVehicles)
+  //   .then(saveJsonToDisk)
+  //   .catch(e => console.log('Could not get page data! ', e));
 }
 
-function getPageData(urlData, promiseIndex) {
+function getNonce() {
+  return fetch('https://www.zeckford.com/', {
+    method: 'GET',
+    cache: 'no-cache',
+    credentials: 'include',
+    referrer: 'no-referrer',
+  })
+  .then(response => response.text())
+  .then((page) => {
+    const nonce = page.match(/\"ajax_nonce\"\:\"(.*?)\"\,\"/)[1];
+    
+    return nonce;
+  });
+}
+
+function getPageData(urlData) {
+  console.log('getpagedata', urlData);
   return fetch(urlData.host, {
     body: urlData.params,
     headers: {
-      'content-type': 'application/x-www-form-urlencoded'
+      'content-type': 'application/x-www-form-urlencoded',
     },
+    credentials: 'include',
+    cache: 'no-cache',
     method: 'POST',
   })
   .then(response => response.json())
@@ -50,10 +76,10 @@ function getPageData(urlData, promiseIndex) {
   .then(parseHtmlToData);
 }
 
-function buildUrlsFromOptions(options) {
+function buildUrlsFromOptions(options, nonce) {
   // https://www.zeckford.com/new-vehicles/#action=im_ajax_call&perform=get_results&our_price%5B%5D=0-40000&page=1&order=DESC&orderby=price&type%5B%5D=New&type%5B%5D=Used&model%5B%5D=F-150&year%5B%5D=2018&year%5B%5D=2017&year%5B%5D=2016&year%5B%5D=2015
 
-  let params = 'action=im_ajax_call&perform=get_results&_nonce=77ee188e968e56c1e6f6cf2df606b713&_post_id=6&_referer=/used-vehicles/';
+  let params = `action=im_ajax_call&perform=get_results&_nonce=${nonce}&_post_id=6&_referer=/used-vehicles/`;
 
   params += `&type%5B%5D=New&type%5B%5D=Used&type%5B%5D=Certified+Used`;
 
@@ -101,6 +127,7 @@ function buildUrlsFromOptions(options) {
 }
 
 function parseHtmlToData(markup) {
+  console.log('markup', markup);
   const $ = cheerio.load(markup);
   const vehicles = [];
   const $vehArr = [];
@@ -136,6 +163,7 @@ function parseHtmlToData(markup) {
       image: $veh.find('.save-things-save').data('thumbnail-url'),
     };
 
+    console.log('pushing vehicle', vehicle.stockNum);
     vehicles.push(vehicle);
   });
 
