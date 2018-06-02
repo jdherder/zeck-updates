@@ -26,9 +26,6 @@ init();
 /* functions */
 
 function init() {
-  // const urls = buildUrlsFromOptions(options);
-  // const promises = urls.map((urlData, i) => getPageData(urlData, i));
-
   getNonce()
     .then(nonce => buildUrlsFromOptions(options, nonce).map(urlData => getPageData(urlData)))
     .then(pageDataPromises => Promise.all(pageDataPromises))
@@ -36,13 +33,6 @@ function init() {
     .then(compareNewVehicles)
     .then(saveJsonToDisk)
     .catch(e => console.log('Could not get page data! ', e));
-
-  // Promise
-  //   .all(promises)
-  //   .then(results => results.reduce((sum, value) => sum.concat(value || []), []))
-  //   .then(compareNewVehicles)
-  //   .then(saveJsonToDisk)
-  //   .catch(e => console.log('Could not get page data! ', e));
 }
 
 function getNonce() {
@@ -61,7 +51,6 @@ function getNonce() {
 }
 
 function getPageData(urlData) {
-  console.log('getpagedata', urlData);
   return fetch(urlData.host, {
     body: urlData.params,
     headers: {
